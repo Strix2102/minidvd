@@ -68,8 +68,6 @@ $(document).ready( function() {
 	$('.marquee').marqueeify({
 		speed: 300,
 		bumpEdge: function () {
-			var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
-			$('.marquee .logo').css('fill', newColor);
 		}
 	});
 });
